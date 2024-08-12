@@ -101,16 +101,16 @@ class Game:
                         pause = False
 
                     if not pause:
-                        if event.key == pygame.K_a:  # Mover para a esquerda com 'A'
+                        if event.key == pygame.K_a: 
                             self.snake.move_left() 
 
-                        if event.key == pygame.K_d:  # Mover para a direita com 'D'
+                        if event.key == pygame.K_d: 
                             self.snake.move_right()  
 
-                        if event.key == pygame.K_w:  # Mover para cima com 'W'
+                        if event.key == pygame.K_w:
                             self.snake.move_up()  
 
-                        if event.key == pygame.K_s:  # Mover para baixo com 'S'
+                        if event.key == pygame.K_s: 
                             self.snake.move_down()  
 
                 elif event.type == pygame.QUIT:
