@@ -1,12 +1,13 @@
 import pygame
 import random
+import os
 
 SIZE = 40
 
 class Apple:
     def __init__(self, parent_screen):
         self.parent_screen = parent_screen
-        self.image = pygame.image.load("apple.jpg").convert()  
+        self.image = pygame.image.load(os.path.join("assets", "apple.png")).convert()
         self.x = 80 
         self.y = 80  
 
