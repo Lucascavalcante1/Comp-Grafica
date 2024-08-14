@@ -135,7 +135,7 @@ class Game:
                         elif pause:  
                             pause = False
 
-<<<<<<< HEAD
+
                     if not pause and not in_menu:
                         if event.key == pygame.K_a:
                             self.snake.move_left()
@@ -148,7 +148,7 @@ class Game:
 
                         if event.key == pygame.K_s:
                             self.snake.move_down()
-=======
+
                     if not pause:
                         if event.key == pygame.K_a: 
                             self.snake.move_left() 
@@ -161,7 +161,6 @@ class Game:
 
                         if event.key == pygame.K_s: 
                             self.snake.move_down()  
->>>>>>> 04c1341026fc8fdbe5de3951a4511f3853237425
 
                 elif event.type == pygame.QUIT:
                     running = False
