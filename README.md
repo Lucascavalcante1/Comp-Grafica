@@ -3,6 +3,8 @@ Projeto Para Disciplina Introdução a computação gráfica.
 
 Ideia inicial : Snake game com algumas costumizações extras.
 
+Para rodar o jogo, baixe tudo e abra  o exec "Bambamx.exe"
+
 Ferramentas : python com a biblioteca pygames.
 
 Objetivo:
